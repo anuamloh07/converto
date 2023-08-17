@@ -39,6 +39,10 @@ h2{
     background-color: grey;
 }
 
+#thermometer-img{
+    width: 35px;
+}
+
 /* DROPDOWN BUTTON
 
 .dropbtn {

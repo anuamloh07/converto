@@ -92,7 +92,7 @@ document.getElementById('submit').onclick = function () {
     }
 
     else if (isNaN(celsiusInput) && !isNaN(fahrenheitInput) && isNaN(kelvinInput)) {
-        var celsius = ((fahrenheitInput - 32) * 5/9).toFixed(2);
+        var celsius = ((fahrenheitInput - 32) * 5/9);
         var kelvin = (celsius + 273.15).toFixed(2);
 
         document.getElementById('c').innerHTML = "The temperature in celsius is: " + celsius;
